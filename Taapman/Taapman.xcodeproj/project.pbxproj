@@ -12,6 +12,8 @@
 		5A09A79F2B75715C00827601 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09A79E2B75715C00827601 /* Item.swift */; };
 		5A09A7A12B75715D00827601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A09A7A02B75715D00827601 /* Assets.xcassets */; };
 		5A09A7A42B75715D00827601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A09A7A32B75715D00827601 /* Preview Assets.xcassets */; };
+		5A09A7B32B7573DB00827601 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09A7B22B7573DB00827601 /* Extensions.swift */; };
+		5A09A7B52B7575B900827601 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09A7B42B7575B900827601 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5A09A79E2B75715C00827601 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5A09A7A02B75715D00827601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A09A7A32B75715D00827601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A09A7B22B7573DB00827601 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5A09A7B42B7575B900827601 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				5A09A79A2B75715C00827601 /* TaapmanApp.swift */,
-				5A09A79C2B75715C00827601 /* ContentView.swift */,
+				5A09A7AA2B7572E500827601 /* Views */,
+				5A09A7AF2B75734F00827601 /* Models */,
+				5A09A7B12B75736500827601 /* Utils */,
 				5A09A79E2B75715C00827601 /* Item.swift */,
 				5A09A7A02B75715D00827601 /* Assets.xcassets */,
 				5A09A7A22B75715D00827601 /* Preview Content */,
@@ -68,6 +74,62 @@
 				5A09A7A32B75715D00827601 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A09A7AA2B7572E500827601 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A09A7AB2B7572F700827601 /* Main */,
+				5A09A7AC2B75730200827601 /* Navigation */,
+				5A09A7AD2B75732100827601 /* Detail */,
+				5A09A7AE2B75732B00827601 /* Components */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5A09A7AB2B7572F700827601 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5A09A79C2B75715C00827601 /* ContentView.swift */,
+				5A09A7B42B7575B900827601 /* HomeView.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5A09A7AC2B75730200827601 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		5A09A7AD2B75732100827601 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		5A09A7AE2B75732B00827601 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		5A09A7AF2B75734F00827601 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5A09A7B12B75736500827601 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5A09A7B22B7573DB00827601 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +205,8 @@
 				5A09A79D2B75715C00827601 /* ContentView.swift in Sources */,
 				5A09A79F2B75715C00827601 /* Item.swift in Sources */,
 				5A09A79B2B75715C00827601 /* TaapmanApp.swift in Sources */,
+				5A09A7B52B7575B900827601 /* HomeView.swift in Sources */,
+				5A09A7B32B7573DB00827601 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
